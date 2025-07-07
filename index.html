@@ -339,7 +339,7 @@
     </main>
 
     <footer class="footer">
-        <div class="container footer-container">
+        <div class="container footer-section">
             <div class="footer-branding">
                 <a class="logo-footer logo" href="./index.html">
                     Web<span class="footer-studio">Studio</span>
@@ -348,7 +348,7 @@
                     marketing &
                     growth solutions.</p>
             </div>
-            <div>
+            <div class="socials-section">
                 <p class="socials-text">Social media</p>
                 <ul class="footer-list">
                     <li class="footer-icon">
@@ -381,13 +381,20 @@
                     </li>
                 </ul>
             </div>
-            <form action="">
-                <label>
-                    Sabscribe
-                    <input type="email" name="email" />
-                </label>
-                <button type="submit">Subscribe</button>
-            </form>
+            <div class="subscribe-section">
+                <p class="subscribe-title">Subscribe</p>
+                <form class="subscribe-form">
+                    <lable class="subscribe-lable">
+                        <input type="email" class="subscribe-input" name="email" placeholder="E-mail" required />
+                    </lable>
+                    <button type="submit" class="subscribe-button">
+                        Subscribe
+                        <svg class="subscribe-icon" width="24" height="24">
+                            <use href="./images/symbol-defs.svg#icon-subscribe"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
         </div>
     </footer>
 </body>
