@@ -1,5 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
   <defs>
+    <symbol id="icon-close" viewBox="0 0 24 24">
+      <path d="M24 2.417 21.583 0 12 9.583 2.417 0 0 2.417 9.583 12 0 21.583 2.417 24 12 14.417 21.583 24 24 21.583 14.417 12 24 2.417z"/>
+    </symbol>
     <symbol id="icon-email-black" viewBox="0 0 18 24">
       <path d="M15 6H3c-.825 0-1.493.675-1.493 1.5l-.008 9c0 .825.675 1.5 1.5 1.5h12c.825 0 1.5-.675 1.5-1.5v-9c0-.825-.675-1.5-1.5-1.5zm-.3 3.188-5.303 3.315a.758.758 0 0 1-.795 0L3.299 9.188a.637.637 0 1 1 .675-1.08l5.025 3.143 5.025-3.143a.637.637 0 1 1 .675 1.08z"/>
     </symbol>
