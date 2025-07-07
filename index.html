@@ -448,10 +448,26 @@
                         Comment
                     </label>
                     <div class="modal-lable-box">
-                        <input id="user-comment" type="text" class="modal-input" required>
-
+                        <textarea name="user-comment" id="user-comment" placeholder="Text input"
+                            class="modal-textarea"></textarea>
+                    </div>
+                    <div class="modal-chekbox">
+                        <input type="checkbox" id="user-privacy" value="true" name="user-privacy"
+                            class="modal-chekbox-input">
+                        <label for="user-privacy" class="modal-chekbox-text">
+                            <span class="modal-chekbox-span">
+                                <svg class="chekbox-icon" widht="10" height="8">
+                                    <use href="./images/icons.svg#icon-accept"></use>
+                                </svg>
+                            </span>
+                            <span class="modal-privacy-text">
+                                I accept the terms and conditions of the <a href="#" class="modal-privacy-link">Privacy
+                                    Policy</a>
+                            </span>
+                        </label>
                     </div>
                 </div>
+                <button class="modal-button" type="submit">Send</button>
             </form>
         </div>
     </div>
