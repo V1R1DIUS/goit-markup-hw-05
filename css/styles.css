@@ -658,11 +658,16 @@ margin-bottom: 8px;
   margin-bottom: 24px;
 }
 
+.chekbox-icon{
+  width: 10px;
+  height: 8px;
+}
+
 .modal-chekbox-input{
   visibility: hidden;
 }
 
-.modal-chekbox-text{
+.modal-chekbox-label{
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
