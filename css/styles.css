@@ -472,7 +472,6 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 .subscribe-section {
   display: flex;
   flex-direction: column;
-  gap: 16px;
   color: #fff;
 }
 .subscribe-title {
@@ -482,6 +481,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-top: 0;
+  margin-bottom: 16px;
 }
 .subscribe-form {
   display: flex;
