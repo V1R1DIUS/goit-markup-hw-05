@@ -677,20 +677,21 @@ margin-bottom: 8px;
   justify-content: center;
   width: 16px;
   height: 16px;
+  margin-right: 8px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: transparent;  
 }
 
-.modal-chekbox-input:checked .modal-chekbox-span{
+.modal-chekbox-unput:focus+.checkbox-svg{
+  fill: #4d5ae5;
+}
+
+.modal-chekbox-input:checked + .modal-chekbox-label .modal-chekbox-span{
   background-color: #404BBF;
   border: none;
   fill: #f4f4fd;
-}
-
-.modal-privacy-text{
-  padding-left: 8px;
 }
 
 .modal-privacy-link{
@@ -699,6 +700,7 @@ margin-bottom: 8px;
 
 .modal-button{
   display: block;
+  margin-left: 90px;
   min-width: 169px;
   height: 56px;
   font-family: "Roboto" sans-serif;
