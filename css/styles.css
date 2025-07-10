@@ -684,7 +684,7 @@ margin-bottom: 8px;
   fill: transparent;  
 }
 
-.modal-chekbox-unput:focus+.checkbox-svg{
+.modal-chekbox-input:focus+.checkbox-svg{
   fill: #4d5ae5;
 }
 
