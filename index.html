@@ -396,7 +396,7 @@
             </div>
         </div>
     </footer>
-    <div class="modal-overlay">
+    <div class="modal-overlay is-open">
         <div class="modal">
 
             <button type="button" class="modal-btn-close">
@@ -473,11 +473,11 @@
         const modalOverlay = document.querySelector('.modal-overlay');
 
         openModalBtn.addEventListener('click', () => {
-            modalOverlay.style.display = 'flex';
+            modalOverlay.classList.add('is-open');
         });
 
         closeModalBtn.addEventListener('click', () => {
-            modalOverlay.style.display = 'none';
+            modalOverlay.classList.remove('is-open');
         });
     </script>
 
