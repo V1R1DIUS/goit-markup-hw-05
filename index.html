@@ -12,7 +12,6 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
-
 </head>
 
 <body>
@@ -467,6 +466,22 @@
             </form>
         </div>
     </div>
+
+    <script>
+        const openModalBtn = document.querySelector('.hero-banner-button');
+        const closeModalBtn = document.querySelector('.modal-btn-close');
+        const modalOverlay = document.querySelector('.modal-overlay');
+
+        openModalBtn.addEventListener('click', () => {
+            modalOverlay.style.display = 'flex';
+        });
+
+        closeModalBtn.addEventListener('click', () => {
+            modalOverlay.style.display = 'none';
+        });
+    </script>
+
+
 </body>
 
 </html>

@@ -523,7 +523,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 .subscribe-icon {
   margin-left: 16px;
 }
-
+/* Modal Overlay */
 .modal-overlay{
   position: fixed;
   top: 0;
@@ -667,8 +667,6 @@ margin-bottom: 8px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: flex;
-
 }
 
 .modal-chekbox-span{
